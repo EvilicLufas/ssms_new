@@ -1,0 +1,93 @@
+body{
+	background:url(../pic/bg_main.jpg) no-repeat center;
+	background-position:0% 0%;
+  	background-size:cover;
+  	}
+.container{
+	position: fixed;
+	top:50%;
+	left: 50%;
+	width: 500px;
+	background: linear-gradient(#fff, #00a8f3);
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 54px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 65px;
+	margin-top: -200px;
+	margin-left:-270px ;
+  }
+.loginWraper{
+	width:100%;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	z-index:1;
+}
+.user
+{
+	margin-top: 20px;
+	display: table;
+    width: 100%;
+}
+.icon_1
+{
+	margin-top: 3px;
+    cursor: text;
+    text-align: right;
+    padding-right: 10px;
+    width:25%;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+.input_2
+{
+	font-size: 22px;
+    height: 36px;
+    padding: 8px;
+    width:300px;
+}
+.box1{margin-top:20px}
+.radio_box
+{
+	display:inline-block;
+	box-sizing:border-box;
+	cursor:pointer;
+	position:relative;
+	padding-left:30px;
+	padding-right:20px
+}
+.r1{
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    border: none;
+    cursor: pointer;
+}
+.radio_box_1
+{
+	position:absolute;
+	top:4px;
+	left:0;
+}
+.btn
+{
+	display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    vertical-align: middle;
+	padding: 8px 16px;
+	font-size: 16px;
+    height: 41px;
+    border-radius: 5px;
+}
